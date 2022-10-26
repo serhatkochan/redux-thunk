@@ -3,7 +3,8 @@
     "baseUrl": "./src",
     "paths": {
       "assets": ["assets/*"],
-      "store": ["store/*"]
+      "redux": ["redux/*"],
+      "services": ["services/*"]
     }
   },
   "exclude": ["node_modules"]
