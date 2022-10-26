@@ -1,6 +1,6 @@
+import {useEffect} from "react";
 import {useSelector} from 'react-redux';
 import {dispatch, actions, selectors} from 'redux/index';
-import {useEffect} from "react";
 
 const {
   joke: {getJoke}
