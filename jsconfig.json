@@ -2,9 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "components": ["components/*"],
-      "assets": ["assets/*"],
-      "constants": ["constants/*"]
+      "assets": ["assets/*"]
     }
   },
   "exclude": ["node_modules"]
