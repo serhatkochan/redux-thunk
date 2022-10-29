@@ -19,7 +19,7 @@ function App() {
     if (jokeError) {
       console.warn('error message');
     }
-  }, [selectGetJokeError])
+  }, [jokeError])
 
   const getJokeTrigger = () => {
     dispatch(getJoke());
