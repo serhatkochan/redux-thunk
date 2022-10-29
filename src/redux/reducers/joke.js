@@ -16,7 +16,7 @@ export const joke = (state = initialState, action) => {
       return {
         ...state,
         pending: true,
-        error: {},
+        error: false,
         data: {}
       }
     case GET_JOKE_FULFILLED:
